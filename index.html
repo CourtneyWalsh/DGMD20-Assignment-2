@@ -1,1 +1,159 @@
-Hello World
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0" />
+    <title>Courtney Walsh | Assignment 1 | Jordan-Rieger Fund</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#myCarousel').carousel({
+            interval: 5000
+        });
+    });
+    </script>
+</head>
+
+
+<body>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="index.html">
+            <h1>
+                <img src="images/headerlogo.png" alt="JR Fund Logo" width="300">
+            </h1>
+        </a>
+
+
+
+        <!-- Navigation -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a>
+                </li>
+                <li><a href="/about.html">About</a>
+                </li>
+                <li class="dropdown">
+                    <a href="/reasearch.html" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/pancreatic_facts">Pancreatic Cancer Facts</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="/get_involved" class="dropdown-toggle" data-toggle="dropdown">Get Involved <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Share Your Story</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="/event.html" class="dropdown-toggle" data-toggle="dropdown">Events<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/JRAuction.html">JR Fun Auction Dinner</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="/RSVP">RSVP to the Auction</a>
+                        </li>
+                        <li><a href="/gallery.html">Auction Photo Gallery</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="/donate.html">Donate</a>
+                </li>
+                <li><a href="/contact">Contact</a> 
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- /Navigation-->
+
+
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/banner1.jpg" alt="banner image" class="img-responsive">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>"Our mission is discovery.
+                            <br>Our goal is to cure cancer."</h1>
+                        <p>-The Purdue University Center for Cancer Research</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/banner2.jpg" alt="banner image" class="img-responsive">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Don't Forget To RSVP</h1>
+                        <p>This year's Jordan-Rieger Fund Auction is being held on November 1st, 2014.</p>
+                        <p><a class="btn btn-large btn-primary" href="/Auction_Dinner_RSVP">CLICK HERE TO RSVP</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/banner3.jpg" alt="banner image" class="img-responsive">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Only 6% of people diagnosed with pancreatic cancer survive.</h1>
+                        <p>We have just begun our fight and the Jordan-Rieger Fund needs your help!</p>
+                        <p><a class="btn btn-large btn-primary" href="/donate">DONATE TODAY</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        </a>
+    </div>
+    <!-- / Carousel -->
+
+
+    <!-- Infographic -->
+    <div class="content">
+        <div class="row clearfix">
+            <center>
+                <h1>The Jordan-Rieger Fund for</h1>
+                <h1>Pancreatic Cancer Research</h1>
+                <div class="col-md-4 text-center">
+                    <img class="img-circle" alt="innfographic" src="images/graphic3.png">
+                    <h3>Started by Families to Help Save Yours</h3>
+                    <p>The Jordan-Rieger Fund for Pancreatic Cancer at Purdue University Center for Cancer Research is a collaboration of two families to help educate and provide funds for the detection, diagnosis and cure of pancreatic cancer. We hope to stimulate collaborations between Purdue University and other pancreatic cancer researchers to quickly move promising technologies to the patient eliminating this horrible cancer.</p>
+                    <a class="btn btn-default" href="#">View details »</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-circle" alt="innfographic" src="images/graphic1.png">
+                    <h3>Raising Money for Innovative Research</h3>
+                    <p>The Jordan-Rieger Fund was instrumental in re-energizing the Pancreatic Working Group which facilitates the consistent and productive exchange of ideas between Purdue University and Indiana University with 19 clinicians and 24 basic scientists for the understanding, prevention and treatment of pancreatic cancer. We strive to have scientists and engineers join forces to design and develop new technologies and devices to detect pancreatic cancer in its earliest stages.</p>
+                    <a class="btn btn-default" href="#">View details »</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-circle" alt="innfographic" src="images/graphic2.png">
+                    <h3>We Have Currently Raised Over $125,00.00</h3>
+                    <p>Pancreatic Cancer is often misdiagnosed and is found too late for any kind of curative treatment or surgery. The survival of patients with pacreatic cancer is relatively low and has not changed in 40 years. Last year we awarded our first research grant over $46,000 to Dr. Mark Kelley, Ph. D. at Indiana University. With your help, the Jordan-Rieger Fund can continue to make great advances in finding a cure.</p>
+                    <a class="btn btn-default" href="#">View details »</a>
+                </div>
+            </center>
+        </div>
+    </div>
+    <!-- / Inforgraphic -->
+
+
+    <!-- FOOTER -->
+</body>
+
+</html>
