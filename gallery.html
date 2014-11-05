@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0" />
+    <title>Jordan-Rieger Fund For Pancreatic Cancer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+    <!-- JQuery, Bootstrap-->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+ 	<script src="js/bootstrap.min.js"></script>
+ 	<script src="js/bootstrap-hover-dropdown.min.js"></script>
+ 	<script>
+ 	$(document).ready(function(){
+           $('li img').on('click',function(){
+                var src = $(this).attr('src');
+                var img = '<img src="' + src + '" class="img-responsive"/>';
+                $('#myModal').modal();
+                $('#myModal').on('shown.bs.modal', function(){
+                    $('#myModal .modal-body').html(img);
+                });
+                $('#myModal').on('hidden.bs.modal', function(){
+                    $('#myModal .modal-body').html('');
+                });
+           });  
+        })
+</script>
+	 <!-- JQuery, Bootstrap-->
+
+
+<body>
+	 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <i class="fa fa-bars"></i>
+        </button>
+      
+    <!-- Navigation -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/DGMD20-Assignment-2/index.html">Home</a>
+                </li>
+                <li><a href="/DGMD20-Assignment-2/about.html">About</a>
+                </li>
+                <li class="dropdown">
+                    <a href="/reasearch.html" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/pancreatic_facts">Pancreatic Cancer Facts</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="/DGMD20-Assignment-2/get_involved" class="dropdown-toggle" data-toggle="dropdown">Get Involved <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/DGMD20-Assignment-2/share_story">Share Your Story</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="/event.html" class="dropdown-toggle" data-toggle="dropdown">Events<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/JRAuction.html">JR Fun Auction Dinner</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="/RSVP">RSVP to the Auction</a>
+                        </li>
+                        <li class="active"><a href="/DGMD20-Assignment-2/gallery.html">Auction Photo Gallery</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="/donate.html">Donate</a>
+                </li>
+                  <li><a href="/DGMD20-Assignment-2/contact">Contact</a> 
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- /Navigation-->
+
+
+
+
+
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/banner4about.jpg" alt="JR Fund Banner" class="img-responsive">
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+
+    <!-- Galleries -->
+       <div class="container">
+     <ul class="row">
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/1.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/2.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/3.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/4.jpg"/>
+          </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/5.jpg"/>
+       	  </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/6.jpg"/>
+       	  </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/7.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/8.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/9.jpg"/>
+          </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/10.jpg"/>
+       	  </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/11.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/12.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/13.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/14.jpg"/>
+          </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/15.jpg"/>
+       	  </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/16.jpg"/>
+       	  </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/17.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/18.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/19.jpg"/>
+          </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/20.jpg"/>
+       	  </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/21.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/22.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/23.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/24.jpg"/>
+          </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/25.jpg"/>
+       	  </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/26.jpg"/>
+       	  </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/27.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/28.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/29.jpg"/>
+          </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/30.jpg"/>
+       	  </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/31.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/32.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/33.jpg"/>
+          </li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/34.jpg"/>
+          </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/35.jpg"/>
+       	  </li>
+       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/36.jpg"/>
+       	  </li>
+     </ul>
+</div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">         
+          <div class="modal-body"> 
+    </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- /Galleries -->
+
+<br>
+<br>
+    <!-- FOOTER -->
+  <div class="clearfix">
+  <footer>
+  <div class="center-block">
+	<br>
+	<hr>  
+	<p class="text-center">The Jordan-Rieger Fund for Pancreatic Cancer | Hansen Life Sciences Research Building Room 100 | 201 S. University Street | West Lafayette, Indiana 47907</p>
+	<hr>
+</div>
+	</footer>
+</div>
+ 	<!-- /FOOTER -->
+</body>
+</html>
+
