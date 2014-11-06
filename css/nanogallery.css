@@ -428,7 +428,6 @@
 	-o-box-sizing: border-box;
 }
 .nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer  .labelImageTitle:before{
-	content: '\e803';	/* .icon-picture */
 	/*margin-left: .2em;*/
 	margin-right: .3em;
 	Text-Shadow: #000000 1px 0px 0px, #000000 1px 1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 -1px 0px 0px, #000000 -1px -1px 0px, #000000 0px 1px 0px, #000000 0px -1px 0px;
@@ -462,7 +461,6 @@
 	-o-box-sizing: border-box;
 }
 .nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer  .labelFolderTitle:before{
-	content: '\e815';	/* .icon-folder-empty */
 	/*margin-left: .2em;*/
 	margin-right: .3em;
 	Text-Shadow: #000000 1px 0px 0px, #000000 1px 1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 -1px 0px 0px, #000000 -1px -1px 0px, #000000 0px 1px 0px, #000000 0px -1px 0px;
@@ -586,7 +584,6 @@
 	color: #ddd; 
 	background: rgba(0,0,0,0.2);
   padding: 5px 0 5px 5px;
-
 	content: '\e80a';	/* .icon-cancel */
 	font-size:1.5em;
 	Text-Shadow: #000000 1px 0px 0px, #000000 1px 1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 -1px 0px 0px, #000000 -1px -1px 0px, #000000 0px 1px 0px, #000000 0px -1px 0px;
@@ -607,7 +604,7 @@
 .nanogallery_theme_default .nanoGalleryViewer .content {
 	/*display:block;*/
 	/*position:relative;*/
-  position:absolute;
+	position:absolute;
 	/*height:100%;*/
   clear:both;
 	padding:5px;

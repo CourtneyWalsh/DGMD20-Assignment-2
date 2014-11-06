@@ -4,31 +4,28 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0" />
-    <title>Jordan-Rieger Fund For Pancreatic Cancer</title>
+    <title>Courtney Walsh | Assignment 2 | Jordan-Rieger Fund</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="css/styles.css" rel="stylesheet">
+    <link href="css/nanogallery.css" rel="stylesheet" type="text/css">
 </head>
 
     <!-- JQuery, Bootstrap-->
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
- 	<script src="js/bootstrap.min.js"></script>
- 	<script src="js/bootstrap-hover-dropdown.min.js"></script>
- 	<script>
- 	$(document).ready(function(){
-           $('li img').on('click',function(){
-                var src = $(this).attr('src');
-                var img = '<img src="' + src + '" class="img-responsive"/>';
-                $('#myModal').modal();
-                $('#myModal').on('shown.bs.modal', function(){
-                    $('#myModal .modal-body').html(img);
-                });
-                $('#myModal').on('hidden.bs.modal', function(){
-                    $('#myModal .modal-body').html('');
-                });
-           });  
-        })
-</script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+ 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+ 	<script type="text/javascript" src="js/bootstrap-hover-dropdown.min.js"></script>
+  <script type="text/javascript" src="js/jquery.nanogallery.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function () {
+  jQuery("#nanoGallery").nanoGallery({
+    thumbnailWidth:'auto',thumbnailHeight:150,
+    thumbnailHoverEffect:'labelAppear75,imageScale150',
+    viewerDisplayLogo:true,   
+    thumbnailLabel:{position:'overImageOnMiddle', align: 'center'}
+          });
+        });
+     </script>
 	 <!-- JQuery, Bootstrap-->
 
 
@@ -97,105 +94,84 @@
 
     <!-- Galleries -->
        <div class="container">
-     <ul class="row">
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/1.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/2.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/3.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/4.jpg"/>
-          </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/5.jpg"/>
-       	  </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/6.jpg"/>
-       	  </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/7.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/8.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/9.jpg"/>
-          </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/10.jpg"/>
-       	  </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/11.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/12.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/13.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/14.jpg"/>
-          </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/15.jpg"/>
-       	  </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/16.jpg"/>
-       	  </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/17.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/18.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/19.jpg"/>
-          </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/20.jpg"/>
-       	  </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/21.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/22.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/23.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/24.jpg"/>
-          </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/25.jpg"/>
-       	  </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/26.jpg"/>
-       	  </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/27.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/28.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/29.jpg"/>
-          </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/30.jpg"/>
-       	  </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/31.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/32.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/33.jpg"/>
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/34.jpg"/>
-          </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/35.jpg"/>
-       	  </li>
-       	  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/36.jpg"/>
-       	  </li>
-     </ul>
-</div>
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">         
-          <div class="modal-body"> 
-    </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        <div id="nanoGallery">
+              <a href="images/gallery/2009/020.JPG" data-ngthumb="images/gallery/2009/020.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/035.JPG" data-ngthumb="images/gallery/2009/035.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/036.JPG" data-ngthumb="images/gallery/2009/036.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/041.JPG" data-ngthumb="images/gallery/2009/041.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/060.JPG" data-ngthumb="images/gallery/2009/060.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/063.JPG" data-ngthumb="images/gallery/2009/063.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/090.JPG" data-ngthumb="images/gallery/2009/090.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/097.JPG" data-ngthumb="images/gallery/2009/097.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/109.JPG" data-ngthumb="images/gallery/2009/109.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+               <a href="images/gallery/2009/112.JPG" data-ngthumb="images/gallery/2009/112.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/116.JPG" data-ngthumb="images/gallery/2009/116.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/126.JPG" data-ngthumb="images/gallery/2009/126.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/128.JPG" data-ngthumb="images/gallery/2009/128.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/141.JPG" data-ngthumb="images/gallery/2009/141.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/168.JPG" data-ngthumb="images/gallery/2009/168.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/171.JPG" data-ngthumb="images/gallery/2009/171.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/172.JPG" data-ngthumb="images/gallery/2009/172.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/177.JPG" data-ngthumb="images/gallery/2009/177.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/197.JPG" data-ngthumb="images/gallery/2009/197.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/202.JPG" data-ngthumb="images/gallery/2009/202.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/209.JPG" data-ngthumb="images/gallery/2009/209.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/216.JPG" data-ngthumb="images/gallery/2009/216.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/232.JPG" data-ngthumb="images/gallery/2009/232.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/239.JPG" data-ngthumb="images/gallery/2009/239.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/253.JPG" data-ngthumb="images/gallery/2009/253.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/265.JPG" data-ngthumb="images/gallery/2009/265.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/271.JPG" data-ngthumb="images/gallery/2009/271.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2009/281.JPG" data-ngthumb="images/gallery/2009/281.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/1.JPG" data-ngthumb="images/gallery/2010/1.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/2.JPG" data-ngthumb="images/gallery/2010/2.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/3.JPG" data-ngthumb="images/gallery/2010/3.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/4.JPG" data-ngthumb="images/gallery/2010/4.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/5.JPG" data-ngthumb="images/gallery/2010/5.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/6.JPG" data-ngthumb="images/gallery/2010/6.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/7.JPG" data-ngthumb="images/gallery/2010/7.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/8.JPG" data-ngthumb="images/gallery/2010/8.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/9.JPG" data-ngthumb="images/gallery/2010/9.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/10.JPG" data-ngthumb="images/gallery/2010/10.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/11.JPG" data-ngthumb="images/gallery/2010/11.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/12.JPG" data-ngthumb="images/gallery/2010/12.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/13.JPG" data-ngthumb="images/gallery/2010/13.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/14.JPG" data-ngthumb="images/gallery/2010/14.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/15.JPG" data-ngthumb="images/gallery/2010/15.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/16.JPG" data-ngthumb="images/gallery/2010/16.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/17.JPG" data-ngthumb="images/gallery/2010/17.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/18.JPG" data-ngthumb="images/gallery/2010/18.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/19.JPG" data-ngthumb="images/gallery/2010/19.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/20.JPG" data-ngthumb="images/gallery/2010/20.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/21.JPG" data-ngthumb="images/gallery/2010/21.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/22.JPG" data-ngthumb="images/gallery/2010/22.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/23.JPG" data-ngthumb="images/gallery/2010/23.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/24.JPG" data-ngthumb="images/gallery/2010/24.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/25.JPG" data-ngthumb="images/gallery/2010/25.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/26.JPG" data-ngthumb="images/gallery/2010/26.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/27.JPG" data-ngthumb="images/gallery/2010/27.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/28.JPG" data-ngthumb="images/gallery/2010/28.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/29.JPG" data-ngthumb="images/gallery/2010/29.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/30.JPG" data-ngthumb="images/gallery/2010/30.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/31.JPG" data-ngthumb="images/gallery/2010/31.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/32.JPG" data-ngthumb="images/gallery/2010/32.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+               <a href="images/gallery/2010/33.JPG" data-ngthumb="images/gallery/2010/33.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/34.JPG" data-ngthumb="images/gallery/2010/34.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/35.JPG" data-ngthumb="images/gallery/2010/35.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/36.JPG" data-ngthumb="images/gallery/2010/36.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/37.JPG" data-ngthumb="images/gallery/2010/37.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/IMG_0305.JPG" data-ngthumb="images/gallery/2010/IMG_0305.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/IMG_0337.JPG" data-ngthumb="images/gallery/2010/IMG_0337.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/IMG_0339.JPG" data-ngthumb="images/gallery/2010/IMG_0339.JPG" data-ngdesc="2010">>Annual Auction Dinner</a>
+              <a href="images/gallery/2010/IMG_0340.JPG" data-ngthumb="images/gallery/2010/IMG_0340.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/32.JPG" data-ngthumb="images/gallery/2010/32.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+      </div>
+      </div>
     <!-- /Galleries -->
 
 <br>
 <br>
-    <!-- FOOTER -->
-  <div class="clearfix">
-  <footer>
-  <div class="center-block">
-	<br>
-	<hr>  
-	<p class="text-center">The Jordan-Rieger Fund for Pancreatic Cancer | Hansen Life Sciences Research Building Room 100 | 201 S. University Street | West Lafayette, Indiana 47907</p>
-	<hr>
-</div>
-	</footer>
-</div>
- 	<!-- /FOOTER -->
+
 </body>
 </html>
 
