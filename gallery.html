@@ -8,20 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" href="css/styles.css" rel="stylesheet">
-    <link href="css/nanogallery.css" rel="stylesheet" type="text/css">
+    <link href="css/myGallery.css" rel="stylesheet" type="text/css">
 </head>
 
     <!-- JQuery, Bootstrap-->
-	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
  	<script type="text/javascript" src="js/bootstrap.min.js"></script>
- 	<script type="text/javascript" src="js/bootstrap-hover-dropdown.min.js"></script>
-  <script type="text/javascript" src="js/jquery.nanogallery.js"></script>
+  <script type="text/javascript" src="js/jquery.myGallery.js"></script>
   <script type="text/javascript">
   $(document).ready(function () {
-  jQuery("#nanoGallery").nanoGallery({
+  jQuery("#myGallery").myGallery({
     thumbnailWidth:'auto',thumbnailHeight:150,
     thumbnailHoverEffect:'labelAppear75,imageScale150',
-    viewerDisplayLogo:true,   
     thumbnailLabel:{position:'overImageOnMiddle', align: 'center'}
           });
         });
@@ -43,33 +41,14 @@
                 <li><a href="/DGMD20-Assignment-2/about.html">About</a>
                 </li>
                 <li class="dropdown">
-                    <a href="/reasearch.html" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/pancreatic_facts">Pancreatic Cancer Facts</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="dropdown">
                     <a href="/DGMD20-Assignment-2/get_involved" class="dropdown-toggle" data-toggle="dropdown">Get Involved <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="/DGMD20-Assignment-2/share_story">Share Your Story</a>
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <a href="/event.html" class="dropdown-toggle" data-toggle="dropdown">Events<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/JRAuction.html">JR Fun Auction Dinner</a>
+                        <li class="active"><a href="/DGMD20-Assignment-2/gallery.html">Gallery</a>
                         </li>
-                        <li class="divider"></li>
-                        <li><a href="/RSVP">RSVP to the Auction</a>
-                        </li>
-                        <li class="active"><a href="/DGMD20-Assignment-2/gallery.html">Auction Photo Gallery</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="/donate.html">Donate</a>
-                </li>
                   <li><a href="/DGMD20-Assignment-2/contact">Contact</a> 
                 </li>
             </ul>
@@ -85,7 +64,7 @@
     <div id="myCarousel" class="carousel slide">
         <div class="carousel-inner">
             <div class="item active">
-                <img src="images/banner4about.jpg" alt="JR Fund Banner" class="img-responsive">
+                <img src="images/banner4gallery.jpg" alt="JR Fund Banner" class="img-responsive">
             </div>
         </div>
     </div>
@@ -93,8 +72,8 @@
     <!-- Carousel -->
 
     <!-- Galleries -->
-       <div class="container">
-        <div id="nanoGallery">
+       <div class="container draggable="false" unselectable="on">
+        <div id="myGallery">
               <a href="images/gallery/2009/020.JPG" data-ngthumb="images/gallery/2009/020.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
               <a href="images/gallery/2009/035.JPG" data-ngthumb="images/gallery/2009/035.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
               <a href="images/gallery/2009/036.JPG" data-ngthumb="images/gallery/2009/036.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
@@ -126,7 +105,6 @@
               <a href="images/gallery/2010/1.JPG" data-ngthumb="images/gallery/2010/1.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/2.JPG" data-ngthumb="images/gallery/2010/2.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/3.JPG" data-ngthumb="images/gallery/2010/3.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
-              <a href="images/gallery/2010/4.JPG" data-ngthumb="images/gallery/2010/4.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/5.JPG" data-ngthumb="images/gallery/2010/5.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/6.JPG" data-ngthumb="images/gallery/2010/6.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/7.JPG" data-ngthumb="images/gallery/2010/7.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
@@ -154,17 +132,19 @@
               <a href="images/gallery/2010/29.JPG" data-ngthumb="images/gallery/2010/29.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/30.JPG" data-ngthumb="images/gallery/2010/30.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/31.JPG" data-ngthumb="images/gallery/2010/31.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
-              <a href="images/gallery/2010/32.JPG" data-ngthumb="images/gallery/2010/32.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
-               <a href="images/gallery/2010/33.JPG" data-ngthumb="images/gallery/2010/33.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/IMG_04232.jpg" data-ngthumb="images/gallery/2010/IMG_04232.jpg" data-ngdesc="2010">Annual Auction Dinner</a>
+               <a href="images/gallery/2010/IMG_0421.JPG" data-ngthumb="images/gallery/2010/IMG_0421.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/34.JPG" data-ngthumb="images/gallery/2010/34.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/35.JPG" data-ngthumb="images/gallery/2010/35.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
-              <a href="images/gallery/2010/36.JPG" data-ngthumb="images/gallery/2010/36.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/37.JPG" data-ngthumb="images/gallery/2010/37.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/IMG_0305.JPG" data-ngthumb="images/gallery/2010/IMG_0305.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/IMG_0337.JPG" data-ngthumb="images/gallery/2010/IMG_0337.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/IMG_0339.JPG" data-ngthumb="images/gallery/2010/IMG_0339.JPG" data-ngdesc="2010">>Annual Auction Dinner</a>
               <a href="images/gallery/2010/IMG_0340.JPG" data-ngthumb="images/gallery/2010/IMG_0340.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
               <a href="images/gallery/2010/32.JPG" data-ngthumb="images/gallery/2010/32.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2011/IMG_0730.jpg" data-ngthumb="images/gallery/2011/IMG_0730.jpg" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/33.JPG" data-ngthumb="images/gallery/2010/33.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
+              <a href="images/gallery/2010/IMG_0515.JPG" data-ngthumb="images/gallery/2010/IMG_0515.JPG" data-ngdesc="2010">Annual Auction Dinner</a>
       </div>
       </div>
     <!-- /Galleries -->
