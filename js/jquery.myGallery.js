@@ -1602,9 +1602,9 @@ this.thumbImgHeight = 0;
   }
 
   
-  // ####################################
+
   // ##### LIST OF ITEMS IN OPTIONS #####
-  // ####################################
+
   
   
   function GetImageTitle( imageSRC ) {
@@ -2570,9 +2570,9 @@ this.thumbImgHeight = 0;
   }
 
   
-  // ###################
-  // ##### GALLERY #####
-  // ###################
+  // Gallery
+
+
 
   
   // Display pagination

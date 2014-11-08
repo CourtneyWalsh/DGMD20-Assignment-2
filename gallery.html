@@ -11,24 +11,10 @@
     <link href="css/myGallery.css" rel="stylesheet" type="text/css">
 </head>
 
-    <!-- JQuery, Bootstrap-->
-	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
- 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/jquery.myGallery.js"></script>
-  <script type="text/javascript">
-  $(document).ready(function () {
-  jQuery("#myGallery").myGallery({
-    thumbnailWidth:'auto',thumbnailHeight:150,
-    thumbnailHoverEffect:'labelAppear75,imageScale150',
-    thumbnailLabel:{position:'overImageOnMiddle', align: 'center'}
-          });
-        });
-     </script>
-	 <!-- JQuery, Bootstrap-->
 
 
 <body>
-	 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
             <i class="fa fa-bars"></i>
         </button>
@@ -72,7 +58,9 @@
     <!-- Carousel -->
 
     <!-- Galleries -->
-       <div class="container draggable="false" unselectable="on">
+
+
+       <div class="container" draggable="false" unselectable="on">
         <div id="myGallery">
               <a href="images/gallery/2009/020.JPG" data-ngthumb="images/gallery/2009/020.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
               <a href="images/gallery/2009/035.JPG" data-ngthumb="images/gallery/2009/035.JPG" data-ngdesc="2009">Annual Auction Dinner</a>
@@ -152,6 +140,20 @@
 <br>
 <br>
 
+
+    <!-- JQuery, Bootstrap-->
+  <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.myGallery.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function () {
+  jQuery("#myGallery").myGallery({
+    thumbnailWidth:'auto',thumbnailHeight:150,
+    thumbnailHoverEffect:'labelAppear75,imageScale150',
+    thumbnailLabel:{position:'overImageOnMiddle', align: 'center'}
+          });
+        });
+     </script>
+   <!-- JQuery, Bootstrap-->
 </body>
 </html>
-
