@@ -1,9 +1,7 @@
 jQuery(function ($) {
     // myGallery
     $(".myGallery").myGallery({
-        modal: true, // disable regular nav and close buttons
-        // add buttons helper (requires buttons helper js and css files)
-        helpers: {
+    helpers: {
             buttons: {}
         } 
     });
@@ -26,8 +24,9 @@ jQuery(function ($) {
                 $(".myGallery")
                 .fadeOut(0)
                 .filter(function () {
-                    // set data-filter value as the data-rel value of selected tab
-                    return $(this).data("filter") == $filter; 
+                        var year = $(this).find('.data-ngdesc').text();
+                            return year.match( /2009$/ );
+  }
                 })
                 // set data-myGallery-group and show filtered elements
                 .attr("data-myGallery-group", $filter)
@@ -35,3 +34,9 @@ jQuery(function ($) {
         } // if
     }); // on
 }); // ready
+
+
+'$( "div[id]" ).one( "click", function() {
+  var idString = $( this ).text() + " = " + $( this ).attr( "id" );
+  $( this ).text( idString );
+});'
