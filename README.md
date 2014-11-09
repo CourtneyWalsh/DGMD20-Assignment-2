@@ -25,13 +25,13 @@ Located at this URL: http://courtneywalsh.github.io/DGMD20-Assignment-2/get_invo
 
 My if/else choice is 
 
- .click(function(submit) - If no name is entered the user receives JavaScript alert. 
+ 1. .click(function(submit) - If no name is entered the user receives JavaScript alert. 
 
 Located at this URL: http://courtneywalsh.github.io/DGMD20-Assignment-2/share_story
 
 My effect that requires filtering the results is 
 
- var $filter  - Filter images by year 2009 or 2010
+ 1. var $filter  - Filter images by year 2009 or 2010
 
 Located at this URL: http://courtneywalsh.github.io/DGMD20-Assignment-2/gallery
 
@@ -41,3 +41,4 @@ Two more effects of my choice are
 2. .hover(function() - The thumbnail is scaled to 150%
 
 Located at this URL: http://courtneywalsh.github.io/DGMD20-Assignment-2/gallery
+
