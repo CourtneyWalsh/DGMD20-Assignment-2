@@ -5,6 +5,8 @@ http://courtneywalsh.github.io/DGMD20-Assignment-2
 
 <b>Webiste URL</b>
 https://github.com/CourtneyWalsh/DGMD20-Assignment-2
+
+
 My two jQuery-driven interactive elements in the form include:
   1. .click(function(submit) - A #myModal will thank them for submitting the form
   2. .click(function() - Reset Form 
